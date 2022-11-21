@@ -35,7 +35,7 @@ header {
   justify-content: center;
   opacity: 0.4;
   margin-top: 1.5rem;
-  background-image: url(/Blog/img/Search-Icon.svg);
+  background-image: url(/img/Search-Icon.svg);
   background-repeat: no-repeat;
   background-position: 0.5rem 2.7rem;
 }
@@ -82,6 +82,11 @@ main {
 .date {
   display: flex;
   justify-content: space-between;
+}
+
+.date span {
+  font-size: 1rem;
+  font-family: 'Lexend Deca', sans-serif;
 }
 
 .Publication {
